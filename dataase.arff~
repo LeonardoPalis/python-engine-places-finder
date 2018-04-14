@@ -1,0 +1,8 @@
+@RELATION places
+
+@ATTRIBUTE type_style { rock, samba, pagode, metal, pop, sertaneja }
+@ATTRIBUTE type_food { italiana, mexicana, japonesa, brasileira, tailandesa, chinesa, indiana, arabe}
+@ATTRIBUTE rate numeric
+@ATTRIBUTE neightborhood string
+@DATA
+%aqui vira os dados coletados

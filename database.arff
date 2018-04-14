@@ -1,0 +1,199 @@
+@RELATION places
+
+@ATTRIBUTE type_place { rock, samba, pagode, metal, pop, sertaneja, italiana, mexicana, japonesa, brasileira, tailandesa, chinesa, indiana, arabe}
+@ATTRIBUTE rate numeric
+@ATTRIBUTE neightborhood string
+
+@DATA
+Takos Cocina Mexicana,4.2,mexicana, Funcion\xe1rios
+Los Mariachis Mexican Pub,4.1,mexicana, Carmo
+S\xed Se\xf1or,4.2,mexicana, Belvedere
+Mexicalle Hamburgueria e Restaurante Mexicano,4.5,mexicana, Lj 4 
+Restaurante Tabuleiro Bistr\xf4,4,mexicana, Barreiro
+Miguelito Bar e Restaurante,4.1,mexicana, Buritis
+TACOMTUDO,4.3,mexicana, Al\xedpio de Melo
+Koneteria Gourmet,4.6,mexicana, Lourdes
+TACOMTUDO,4.5,mexicana, Gutierrez
+TACOMTUDO,4.4,mexicana, Padre Eust\xe1quio
+Restaurante e Pizzaria Italiana,4.2,italiana, Milion\xe1rios
+Restaurante It\xe1lia Grill,3.1,italiana,Avenida Oleg\xe1rio Maciel, 1600, Belo Horizonte
+Restaurante Italiano Maurizio Gallo,4.5,italiana, Lourdes
+La vera Pizza Italiana,4.6,italiana, Cruzeiro
+est! est!! est!!!,4.6,italiana, Funcion\xe1rios
+Paratella Gastronomia Italiana,4.7,italiana, 7 
+Sapore D'Italia,4.8,italiana, S\xe3o Pedro
+Cantina Italiana Osteria Degli Angeli,4.3,italiana, Anchieta
+Villa Celimontana Restaurante,4.5,italiana, S\xe3o Jos\xe9
+Galeto It\xe1lia,3.7,italiana, Savassi
+Vecchio Sogno,4.6,italiana, Santo Agostinho
+Prov\xedncia di Salerno,4.6,italiana, Santa Efig\xeania
+Nonna Carmela,4.3,italiana, Lourdes
+La Traviata,4.3,italiana, Funcion\xe1rios
+Ristorante Maurizio Gallo,4.5,italiana, Carmo
+Parrilla It\xe1lia,4,italiana, Centro
+Restaurante Galeto It\xe1lia,3.5,italiana,Avenida Bento Sim\xe3o, Belo Horizonte
+Ristorante Italiano Barolio,3.8,italiana, Ouro Preto
+It\xe1lia Pizzas,4.2,italiana, Barroca
+L\xb4Osteria Mattiazzi,4.4,italiana, Santa Efig\xeania
+Restaurante Yun Ton,4.2,chinesa, Lourdes
+Restaurante Jin Lon,4.1,chinesa, Funcion\xe1rios
+Macau,4.6,chinesa, Lourdes
+Restaurante Golden China,4,chinesa, Centro
+Restaurante Casa da China,3.9,chinesa, Santo Agostinho
+Restaurante Chinese Fulldarin,3.7,chinesa, 3\xba piso
+Uai China,3,chinesa, Santa Efig\xeania
+Restaurante Uaikisoba Culin\xe1ria Chinesa e Mineira,5,chinesa, Serra
+Pequim 2000,3.8,chinesa, Piso 2 
+Fulldarin,3.5,chinesa, Uni\xe3o
+Tai-Ching,4.1,chinesa, Anchieta
+Ni Hao,4,chinesa, Santo Ant\xf4nio
+Chop-Suey San,2.8,chinesa, 3021 
+China in Box,4.4,chinesa,150
+Ni Hao Comida Chinesa,0,chinesa, Centro
+China in Box,4.3,chinesa, Cidade Nova
+Nostra Casa,3.9,chinesa, Ouro Preto
+Chinezin - Comida Chinesa,0,chinesa, Barreiro
+Banzai Culin\xe1ria Oriental,3.5,chinesa, 9\xb0 andar
+Oriente Temaki,4.3,chinesa, Floresta
+Samba Fresh - Poke & Juice Bar,4.8,samba, Lourdes
+Varanda do Prado,4.2,samba, Prado
+Dalva Botequim Musical,4.2,samba, Savassi
+Cervejaria Don Joaquim,4.2,samba, Cora\xe7\xe3o Eucar\xedstico
+O Rei Espetinhos,4.1,samba, Prado
+Armaz\xe9m Guajajaras,3.6,samba, Centro
+Sole\xe1 Studio de Dan\xe7a e Restaurante,4.4,samba, Savassi
+Hipper Frios Confraria,4.4,samba, Uni\xe3o
+Cantina da Ana - Bar e Restaurante,4.2,samba, Horto
+SPETTIM DO TAMPINHA,4.3,samba, Planalto
+Bar do Chorinho,4.5,samba, Padre Eust\xe1quio
+Primatas Bar,4.1,samba, Floresta
+Bar do Kaka,4.3,samba, Aparecida
+Mirante 147,4.2,samba, Santa Teresa
+Bem Dito Bar e Restaurante,3.8,samba, Ouro Preto
+Z\xe9 Pretinho Bar & Restaurante,4.7,pagode, Nossa Senhora da Concei\xe7\xe3o
+Fazenda Mineira,4.2,pagode, Venda Nova
+Primatas Bar,4.1,pagode, Floresta
+Varanda do Prado,4.2,pagode, Prado
+Espetinho Barreiro,4.4,pagode, Barreiro
+Armaz\xe9m Guajajaras,3.6,pagode, Centro
+Cervejaria Don Joaquim,4.2,pagode, Cora\xe7\xe3o Eucar\xedstico
+SPETTIM DO TAMPINHA,4.3,pagode, Planalto
+Santtorini,4,pagode, Cidade Jardim
+Restaurante & Pizzaria Amarelinho,3.8,pagode, Serra Verde
+Bem Dito Bar e Restaurante,3.8,pagode, Ouro Preto
+Batata's Beer,4.3,pagode,020
+Restaurante do Gatao,4.6,pagode,Rua Tantalita, Belo Horizonte
+Restaurante Bol\xe3o,4.1,pagode, Santa Teresa
+Amadeus - Bar e Restaurante,4.4,pagode, Savassi
+Restaurante Recanto Verde,4.3,pagode, Horto
+Petisqueira do Carl\xe3o,4,pagode, Gl\xf3ria
+Caixote Bar E Restaurante,4.4,pagode, Cruzeiro
+Boi Raja,4.7,pagode, Santa Lucia
+Espa\xe7o di Buteco Bar com Churrasco e Restaurante,4.3,pagode, Carlos Prates
+Pizzaria E Lanchonete Metal,4.5,metal, S\xe3o Gabriel
+Restaurante Glouton,4.7,metal, Lourdes
+Restaurante Yun Ton,4.2,metal, Lourdes
+Amadeus - Bar e Restaurante,4.4,metal, Savassi
+Sargas Restaurante,5,metal, Avenida do Contorno
+Restaurante do Porto,4.1,metal, Centro
+Tommy's Diner & Burger,4.5,metal, Lourdes
+Fogo de Ch\xe3o Belo Horizonte,4.5,metal, Savassi
+Taste-Vin,4.7,metal, Lourdes
+Vecchio Sogno,4.6,metal, Santo Agostinho
+Pizzaria Oleg\xe1rio,4.6,metal, Lourdes
+Pastelaria Mar\xedlia de Dirceu,4.2,metal, Lourdes
+Paladino,4.4,metal, Bra\xfanas
+A P\xe3o de Queijaria,4.6,metal, Funcion\xe1rios
+Olga Nur,4.4,metal, Lourdes
+Indian Gourmet,4.9,metal, Lourdes
+Sakan\xe1 Sushi,4.4,metal, Santo Ant\xf4nio
+La Macelleria Lourdes,5,metal,000
+Restaurante Couve & Flor Self-Service,4.7,metal, Lourdes
+A Favorita,4.3,metal, Lourdes
+Pop & Kid,4.3,pop, Centro
+Restaurante Trindade,4,brasileira, Lourdes
+Niha - Cozinha Libanesa e Brasileira,4,brasileira, Carmo
+Pukara Cozinha Brasileira e Latino-Americana,3,brasileira, Santo Ant\xf4nio
+Restaurante Feijuada,4,brasileira, Ouro Preto
+Abrasel MG - Associa\xe7\xe3o Brasileira de Bares e Restaurantes,4,brasileira,Rua Pouso Alto, 49, Belo Horizonte
+Amadeus - Bar e Restaurante,4.4,brasileira, Savassi
+Jantinha Brasileira,0,brasileira, Padre Eust\xe1quio
+Restaurante Couve & Flor Self-Service,4.7,brasileira, Lourdes
+Restaurante Terra\xe7o S\xe3o Bento,4.1,brasileira, S\xe3o Bento
+Restaurante Beco,4.3,brasileira, Centro
+Bar e Restaurante Prosa Mineira,4.3,brasileira, Barreiro
+Restaurante Siri Peixes Carnes e Frutos do Mar,3.9,brasileira, Ouro Preto
+Pizzaria Recanto Sertanejo,4.4,sertaneja, Regina
+Sertanejos Bar e Pizzaria,0,sertaneja,Rua Raimundo Magno da Silva, Belo Horizonte
+Restaurante Xapuri,4.5,sertaneja, Trevo
+Restaurante Porto Real,4.2,sertaneja, Funcion\xe1rios
+Restaurante Jardim de Minas,4.1,sertaneja, Aeroporto
+Santtorini,4,sertaneja, Cidade Jardim
+Restaurante Varand\xe3o,4.5,sertaneja, Floramar
+Caipira Xique Restaurante,4.4,sertaneja, C\xe9u Azul
+Woods Pub Gourmet,4.1,sertaneja, Jardim Atl\xe2ntico
+No Arco da Lapa - Restaurante e Choperia,3.5,sertaneja, Serra
+Restaurante Pizzaria Panela de Pedra,3.7,sertaneja, Gl\xf3ria
+Los Mariachis Mexican Pub,4.1,sertaneja, Carmo
+Restaurante Paulista,4,sertaneja, Estrela do Oriente
+Soluar Restaurante e Bar,3.3,sertaneja, Barreiro
+La Boca Restaurante e Espeteria,4.8,sertaneja, Sion
+Restaurante Minas I,4.3,sertaneja, Lourdes
+Fogo de Ch\xe3o Belo Horizonte,4.5,sertaneja, Savassi
+Rock & Dog,4.1,rock, Cruzeiro
+REC - Rock Esporte Clube,3.9,rock, Savassi
+Rota 85 Pub,4.3,rock, Santa Am\xe9lia Pampulha
+Amsterdam Pub,4.2,rock, S\xe3o Pedro
+Swasdi Restaurante Tailandes,4.5,tailandesa, Centro
+San Ro Restaurante Vegetariano,4.7,tailandesa, Funcion\xe1rios
+Thai Gardens,4.5,tailandesa, Funcion\xe1rios
+Casa do Guilherme,1,tailandesa, Jardim America
+Restaurante Maharaj,4.2,tailandesa, Funcion\xe1rios
+FC do Mortal Kombat,5,tailandesa, Cardoso
+Restaurante Namast\xea,4.5,tailandesa, Prado
+Yan Shan Zay,4.7,tailandesa, Funcion\xe1rios
+Restaurante A Grande Muralha,4.5,tailandesa, Lourdes
+Restaurante Xapuri,4.5,tailandesa, Trevo
+Buffet Bhagwan,4.4,tailandesa, Sagrada Fam\xedlia
+Udon,4.7,tailandesa, Lourdes
+Macau,4.6,tailandesa, Lourdes
+Tokai Express,3.9,tailandesa, Belvedere
+House of Food BH,4.3,tailandesa, Funcion\xe1rios
+Restaurante Varand\xe3o,4.5,tailandesa, Floramar
+Patuscada,4,tailandesa, Funcion\xe1rios
+Restaurante Couve & Flor Self-Service,4.7,tailandesa, Lourdes
+Taika Izakaya,4.5,tailandesa, Belvedere
+Bangkok Royal Thai Cusine,3,tailandesa, Lourdes
+Restaurante Maharaj,4.2,indiana, Funcion\xe1rios
+Buffet Bhagwan,4.4,indiana, Sagrada Fam\xedlia
+Restaurante Namast\xea,4.5,indiana, Prado
+Indian Gourmet,4.9,indiana, Lourdes
+DEMAE DELIVERY SUSHI,4.9,indiana, Jardim America
+Churrascaria Restaurante Pizzaria Barreiro - Braseiro de Minas \xae,5,indiana, Barreiro
+Shitake Restaurante Japones Belo Horizonte,4.2,japonesa, Lourdes
+Sushi Naka,4.4,japonesa, Funcion\xe1rios
+Tatame Comida Japonesa,4.2,japonesa, Carmo
+Restaurante Chop Stick San,4.1,japonesa, Funcion\xe1rios
+Tak\xea,4.3,japonesa, Funcion\xe1rios
+Marukame,4.3,japonesa, Gutierrez
+Yukai,4.2,japonesa, Sion
+Kabuto Sion,4.4,japonesa,\xcd
+Sushi Japa Chan Savassi,3.4,japonesa, Funcion\xe1rios
+Yakan Lounge,4,japonesa, Savassi
+Mayu,4.1,japonesa, Sion
+Kemi - Cone e Sushi House - Palmares,3.9,japonesa, Palmares
+Nigiri Sushi Bar,4,japonesa,\xcd
+Yukusue,4.1,japonesa, Lourdes
+Inka Peruano e Japon\xeas,4.5,japonesa, Luxemburgo
+Cozinha Japonesa Nagasaki,3,japonesa,Rua Gon\xe7alves Dias, Belo Horizonte
+Ochi Sushi,4.3,japonesa, Ouro Preto
+Sushi'n Music,4.5,japonesa, Prado
+Tokai Express,3.4,japonesa, Santa Efig\xeania
+Chop-Suey San,2.8,japonesa, 3021 
+Vila \xc1rabe,4.2,arabe, Funcion\xe1rios
+Vila \xc1rabe,4.6,arabe,356
+Emp\xf3rio Vila \xc1rabe,4,arabe, Santa Efig\xeania
+Casa de Abrah\xe3o Bistr\xf4 \xc1rabe,4,arabe,Rua Professor Primola, 29, Belo Horizonte
+Armaz\xe9m do \xc1rabe,4.1,arabe, Serra
+Tenda do Sheik,4,arabe, Anchieta
+Kasbah,4.2,arabe, Centro
